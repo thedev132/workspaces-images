@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -ex
-START_COMMAND="signal-desktop"
-PGREP="signal-desktop"
+START_COMMAND="signal-desktop-unofficial"
+PGREP="signal-desktop-unofficial"
 DEFAULT_ARGS="--no-sandbox"
 export MAXIMIZE="true"
 export MAXIMIZE_NAME="Signal"
