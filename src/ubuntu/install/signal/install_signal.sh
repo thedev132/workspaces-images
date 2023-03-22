@@ -9,5 +9,5 @@ ARCH=$(arch | sed 's/aarch64/arm64/g' | sed 's/x86_64/amd64/g')
 wget https://github.com/dennisameling/Signal-Desktop/releases/download/v6.2.0/signal-desktop-unofficial_6.2.0_arm64.deb
 
 apt-get install -y ./signal-desktop-unofficial_6.2.0_arm64.deb
-cp /usr/share/applications/signal-desktop.desktop $HOME/Desktop/
-chmod +x $HOME/Desktop/signal-desktop.desktop
+cp /usr/share/applications/signal-desktop-unofficial.desktop $HOME/Desktop/
+chmod +x $HOME/Desktop/signal-desktop-unofficial.desktop
